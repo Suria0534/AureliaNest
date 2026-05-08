@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "installCommand": "npm install --prefix AureliaNest-frontend",
+  "buildCommand": "npm run build --prefix AureliaNest-frontend",
+  "outputDirectory": "AureliaNest-frontend/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
