@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Daraz-lite split into separate apps
+#AureliaNest split into separate apps
 
 The frontend and backend are now fully separated into two standalone folders:
 
