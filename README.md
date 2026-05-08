@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Daraz-lite split into separate apps
 
 The frontend and backend are now fully separated into two standalone folders:
@@ -27,3 +28,7 @@ npm run dev
 
 Frontend default URL: http://localhost:5173
 Backend default URL: http://localhost:5000
+=======
+# AureliaNest
+A modern marketplace app with separate frontend and backend for products, orders, payments, and admin management.
+>>>>>>> 3f0573708b7d0f60592dde08cdb07d41625d5a7d
