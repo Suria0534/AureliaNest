@@ -6,3 +6,12 @@ services:
     rootDir: AureliaNest-backend
     buildCommand: npm install
     startCommand: npm start
+
+staticSites:
+  - name: aurelianest-frontend
+    env: static
+    plan: free
+    rootDir: AureliaNest-frontend
+    branch: main
+    buildCommand: npm install && npm run build
+    publishPath: dist
